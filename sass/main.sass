@@ -1,0 +1,90 @@
+$color: #000000
+$font-body: 'Open Sans', sans-serif
+$font-display: 'Bitter', serif
+$hover: color .2s ease-in-out
+
+=transition($property)
+  -webkit-transition: $property
+  -ms-transition: $property
+  transition: $property
+
+//------------------------------------------
+
+html, body
+  height: 100%
+
+body
+  background-color: #fff
+  font-family: $font-body
+  font-size: 16px
+  line-height: 1
+  color: $color
+  text-align: center
+
+a
+  text-decoration: none
+  +transition($hover)
+
+  &:hover
+    color: $color !important    
+
+main
+  height: 100%
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -ms-flex-direction: column
+  flex-direction: column
+  -webkit-box-pack: justify
+  -ms-flex-pack: justify
+  justify-content: space-between
+
+header 
+  padding-top: 4em
+  box-sizing: border-box
+
+  h1
+    font-family: $font-display
+    font-size: 1.5em
+    margin-bottom: .25em
+    font-weight: 500
+
+  p
+    font-size:.75em
+    color: rgba($color, .7)
+
+section
+
+  h2
+    font-family: $font-display
+    display: inline-block
+    font-size: 2.5em
+    font-weight: 500
+
+  img
+    width: 2.5em
+    display: inline
+    vertical-align: bottom
+
+footer
+  padding-bottom: 4em
+  box-sizing: border-box
+
+  a.side-project
+    color: rgba($color, .6)
+    font-size: .8em
+
+  p
+    margin-top: .75em
+    font-size: .7em
+    color: rgba($color, .5)
+
+  a
+    color: rgba($color, .5)
+
+  .bullet
+    color: rgba($color, .2)
+    margin: 0 2px
+  
