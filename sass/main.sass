@@ -22,11 +22,12 @@ body
   text-align: center
 
 a
+  color: $color
   text-decoration: none
   +transition($hover)
 
   &:hover
-    color: $color !important  
+    color: $color 
 
 small
   font-size: .85em  
@@ -70,12 +71,17 @@ section
     display: inline
     vertical-align: bottom
 
+  p
+    margin-top: 1em
+
+    a:hover
+      color: #e7412a !important
+
+
+
 footer
   padding-bottom: 4em
   box-sizing: border-box
-
-  a.side-project
-    color: rgba($color, .6)
 
   p
     margin-top: .75em

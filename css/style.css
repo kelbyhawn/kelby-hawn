@@ -12,13 +12,14 @@ body {
 }
 
 a {
+  color: black;
   text-decoration: none;
   -webkit-transition: color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 a:hover {
-  color: black !important;
+  color: black;
 }
 
 small {
@@ -64,13 +65,16 @@ section img {
   display: inline;
   vertical-align: bottom;
 }
+section p {
+  margin-top: 1em;
+}
+section p a:hover {
+  color: #e7412a !important;
+}
 
 footer {
   padding-bottom: 4em;
   box-sizing: border-box;
-}
-footer a.side-project {
-  color: rgba(0, 0, 0, 0.6);
 }
 footer p {
   margin-top: 0.75em;
