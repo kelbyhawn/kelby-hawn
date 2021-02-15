@@ -1,4 +1,4 @@
-$color: #000000
+$color: black
 $font-body: 'Open Sans', sans-serif
 $font-display: 'Bitter', serif
 $hover: color .2s ease-in-out
@@ -26,7 +26,10 @@ a
   +transition($hover)
 
   &:hover
-    color: $color !important    
+    color: $color !important  
+
+small
+  font-size: .85em  
 
 main
   height: 100%
@@ -52,7 +55,6 @@ header
     font-weight: 500
 
   p
-    font-size:.75em
     color: rgba($color, .7)
 
 section
@@ -74,11 +76,10 @@ footer
 
   a.side-project
     color: rgba($color, .6)
-    font-size: .8em
 
   p
     margin-top: .75em
-    font-size: .7em
+    font-size: .8em
     color: rgba($color, .5)
 
   a
