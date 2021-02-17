@@ -20,19 +20,6 @@ body
   line-height: 1
   color: $color
   text-align: center
-
-a
-  color: $color
-  text-decoration: none
-  +transition($hover)
-
-  &:hover
-    color: $color 
-
-small
-  font-size: .85em  
-
-main
   height: 100%
   display: -webkit-box
   display: -ms-flexbox
@@ -45,9 +32,19 @@ main
   -ms-flex-pack: justify
   justify-content: space-between
 
+a
+  color: $color
+  text-decoration: none
+  +transition($hover)
+
+  &:hover
+    color: $color 
+
+small
+  font-size: .85em  
+
 header 
   padding-top: 4em
-  box-sizing: border-box
 
   h1
     font-family: $font-display
@@ -77,11 +74,8 @@ section
     a:hover
       color: #e7412a !important
 
-
-
 footer
   padding-bottom: 4em
-  box-sizing: border-box
 
   p
     margin-top: .75em
