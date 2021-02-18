@@ -20,6 +20,7 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-text-size-adjust: none;
 }
 
 a {
