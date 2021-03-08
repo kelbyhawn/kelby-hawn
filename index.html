@@ -7,7 +7,7 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="stylesheet" type="text/css" href="/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css?030321">
+    <link rel="stylesheet" type="text/css" href="/css/style.css?030821">
     
     <link rel="icon" type="image/png" href="https://kelbyhawn.com/favicon.png">
           
@@ -25,25 +25,66 @@
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body>    
+<body> 
+    <a id="top"></a>   
     <header>
-        <h1>Kelby Hawn</h1>
-        <p><small>Design &amp; Dev</small></p>
+        <a href="/"><img src="img/logo.svg" alt="Kelby Hawn"></a>
+        <nav>
+            <ul>
+                <!--<li><a href="#">Work</a></li>-->
+                <li><a class="light" href="#about">About</a></li>
+                <li><a class="light" href="#side-projects">Side Projects</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section>
-		    <h2>On hiatus&hellip;</h2>
-            <img src="emoji-meditation.png" alt="Meditation emoji"> 
-            <p><small>Formerly a Co-Founder & Designer at <a href="https://dolly.com" target="_blank">Dolly</a></small></p>
-        </section>             
+        <section class="top">
+            <div class="wrapper">
+    		    <h1>Hi!</h1>
+                <h2>I’m a conscientious &amp; perceptive designer who loves to code.</h2>
+                <h3>What I do: <strong>UI/UX</strong> & <strong>Visual Design</strong>, <strong>Web Design</strong>, <strong>Front-End Dev</strong></h3>
+                <p>I like solving problems of all kinds in a practical and mindful way and enjoy collaborating with others to make impactful products. I was a Co-Founder & Sr. Product Designer at <a class="light" href="https://dolly.com" target="_blank">Dolly</a> for the past seven years.</p>
+            </div>
+        </section> 
+
+        <a id="about"></a>
+        <section class="about">
+            <div class="wrapper">
+                <h3><strong>About Me</strong> <span>&darr;</span></h3>
+                <img src="img/me.png" alt="Kelby Hawn">
+                <p>Hi, I’m Kelby! I live in Seattle and have been co-founding and working in startups for the past ten years. I’m currently on hiatus but open to new opportunities; in the meantime I’m helping people <a href="https://tidywithkelby.com" target="_blank">tidy up</a> and volunteering at <a href="https://seattleinsight.org/" target="_blank">SIMS</a>.</p>
+                <p><strong>Some non-work things I like:</strong> reading, yoga, meditation, nature, and cats</p>
+                <p><strong>Contact me:</strong> kelbyhawn[at]gmail.com</p>
+            </div>
+        </section>
+
+        <a id="side-projects"></a>
+        <section class="side-projects">
+            <div class="wrapper">
+                <h3><strong>Side Projects</strong> <span>&darr;</span></h3>
+                
+                <div>
+                    <h2><a href="https://supersimpleloremipsum.com" target="_blank"><strong>Super Simple Lorem Ipsum</strong></a></h2>
+                    <p><small>A no-frills Lorem Ipsum resource.</small></p>
+                </div>
+
+                <div>
+                    <h2><a href="https://easyascii.com" target="_blank"><strong>easyASCII</strong></a></h2>
+                    <p><small>A clean, simple, easy-to-use list of ASCII codes.</small></p>
+                </div>
+            </div>
+        </section>
     </main>
 	 	
 	<footer>            
-        <p><a href="https://supersimpleloremipsum.com" target="_blank">Super Simple Lorem Ipsum</a> <span class="bullet">&bull;</span> <a href="https://easyascii.com" target="_blank">easyASCII</a></p>
-
-        <p><small>&copy;<span id="year"></span> <span class="bullet">&bull;</span> <a href="https://www.linkedin.com/in/kelby-hawn/" target="_blank">LinkedIn</a> <span class="bullet">&bull;</span> <a href="https://github.com/kelbyhawn" target="_blank">GitHub</a> <span class="bullet">&bull;</span> <a href="https://tidywithkelby.com/" target="_blank">My alter ego</a></small></p>
-    </footer>		     
+        <p>&copy;<span id="year"></span> <small>Kelby Hawn</small></p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/kelby-hawn/" target="_blank"><strong>LinkedIn</strong></a></li>
+            <li><a href="https://github.com/kelbyhawn" target="_blank"><strong>GitHub</strong></a></li>
+            <li><a href="https://tidywithkelby.com/" target="_blank"><strong>My alter ego</strong></a></li>
+        </ul>
+    </footer>
 
     <script src="/js/copyright.js"></script>
     <script>
