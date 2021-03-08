@@ -76,6 +76,11 @@ header {
   -ms-flex-align: center;
   align-items: center;
 }
+@media screen and (max-width: 640px) {
+  header {
+    padding: 1em;
+  }
+}
 header nav {
   font-family: "Bitter", serif;
   font-weight: 600;
@@ -94,12 +99,25 @@ section {
   margin: 0 auto;
   padding: 10em 1em 0;
 }
+@media screen and (max-width: 640px) {
+  section {
+    padding-top: 8em;
+  }
+}
 
 section.top {
   background-color: rgba(0, 0, 0, 0.85);
   color: #EEEDEF;
   padding: 8em 1em 10em;
   margin: 0;
+}
+@media screen and (max-width: 640px) {
+  section.top {
+    padding: 6em 1em;
+  }
+  section.top h1 {
+    font-size: 4em;
+  }
 }
 section.top .wrapper {
   max-width: 650px;
@@ -141,7 +159,7 @@ section.side-projects h2 {
 footer {
   max-width: 366px;
   padding: 12em 1em 0;
-  margin: 0 auto 4em;
+  margin: 0 auto 2em;
   font-family: "Bitter", serif;
   display: -webkit-box;
   display: -ms-flexbox;

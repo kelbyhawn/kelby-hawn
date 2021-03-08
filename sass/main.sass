@@ -83,6 +83,9 @@ header
   -ms-flex-align: center
   align-items: center
 
+  @media screen and (max-width: $width-sm)
+    padding: 1em
+
   nav 
     font-family: $font-display
     font-weight: 600
@@ -105,6 +108,9 @@ section
   margin: 0 auto
   padding: 10em 1em 0
 
+  @media screen and (max-width: $width-sm)
+    padding-top: 8em
+
 
 
 section.top
@@ -112,6 +118,12 @@ section.top
   color: $color-light
   padding: 8em 1em 10em
   margin: 0
+
+  @media screen and (max-width: $width-sm)
+    padding: 6em 1em
+
+    h1
+      font-size: 4em
 
   .wrapper
     max-width: 650px
@@ -157,7 +169,7 @@ section.side-projects
 footer
   max-width: 366px
   padding: 12em 1em 0
-  margin: 0 auto 4em
+  margin: 0 auto 2em
   font-family: $font-display
   display: -webkit-box
   display: -ms-flexbox
