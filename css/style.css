@@ -135,7 +135,7 @@ section.top h2 {
 }
 
 section.about, section.side-projects {
-  max-width: 600px;
+  max-width: 485px;
 }
 
 @media screen and (max-width: 640px) {
