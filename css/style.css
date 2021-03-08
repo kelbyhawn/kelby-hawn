@@ -138,6 +138,12 @@ section.about, section.side-projects {
   max-width: 600px;
 }
 
+@media screen and (max-width: 640px) {
+  section.about .wrapper {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
 section.about img {
   width: 175px;
   height: 175px;
