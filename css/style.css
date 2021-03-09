@@ -141,7 +141,7 @@ section.top {
 }
 @media screen and (max-width: 640px) {
   section.top {
-    padding: 6em 1em;
+    padding: 7em 1em;
   }
   section.top h1 {
     font-size: 4em;
