@@ -51,12 +51,13 @@ p
   line-height: 1.4
   margin-bottom: 1em
 
-a
+a, a:visited
   color: rgba($color, .85)
   text-decoration: underline
   +transition($hover)
 
-  &:hover
+  &:hover,
+  &:active
     color: $color-accent
 
 strong
@@ -64,6 +65,9 @@ strong
 
 .light
   color: $color-light
+
+  &:visited
+    color: $color-light
 
 .desktop
   @media screen and (max-width: $width-sm)
@@ -111,7 +115,7 @@ header
         display: inline
         margin-left: 2em
 
-        a
+        a      
           text-decoration: none
 
 

@@ -40,14 +40,14 @@ p {
   margin-bottom: 1em;
 }
 
-a {
+a, a:visited {
   color: rgba(0, 0, 0, 0.85);
   text-decoration: underline;
   -webkit-transition: color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-a:hover {
+a:hover, a:active, a:visited:hover, a:visited:active {
   color: red;
 }
 
@@ -56,6 +56,9 @@ strong {
 }
 
 .light {
+  color: #EEEDEF;
+}
+.light:visited {
   color: #EEEDEF;
 }
 
