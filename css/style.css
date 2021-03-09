@@ -157,6 +157,11 @@ section.top .wrapper {
   max-width: 650px;
   margin: 0 auto;
 }
+@media screen and (max-width: 640px) {
+  section.top .wrapper {
+    max-width: 340px;
+  }
+}
 section.top h2 {
   font-size: 2.25em;
   font-weight: 300;
@@ -179,6 +184,8 @@ section.about, section.side-projects {
   section.about .wrapper {
     padding-left: 1em;
     padding-right: 1em;
+    max-width: 311px;
+    margin: 0 auto;
   }
 }
 section.about img {
