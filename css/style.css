@@ -173,7 +173,7 @@ section.top h2 {
 }
 
 section.about, section.side-projects {
-  max-width: 565px;
+  max-width: 595px;
 }
 
 @media screen and (max-width: 640px) {
@@ -204,7 +204,7 @@ section.side-projects h2 {
 }
 
 footer {
-  max-width: 362px;
+  max-width: 394px;
   padding: 12em 1em 0;
   margin: 0 auto 2em;
   font-family: "Bitter", serif;
