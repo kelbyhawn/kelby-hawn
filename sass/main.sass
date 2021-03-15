@@ -213,24 +213,17 @@ footer
   display: -webkit-box
   display: -ms-flexbox
   display: flex
-  -webkit-box-pack: justify
-  -ms-flex-pack: justify
-  justify-content: space-between
+  -ms-flex-pack: distribute
+  justify-content: space-around
   -webkit-box-align: baseline
   -ms-flex-align: baseline
   align-items: baseline
-
-  @media screen and (max-width: $width-sm)
-    flex-wrap: wrap-reverse
-    text-align: center
-
-    p
-      margin: 1em auto
+  -ms-flex-wrap: wrap-reverse
+  flex-wrap: wrap-reverse
 
   ul
-
-    @media screen and (max-width: $width-sm)
-      margin: 0 auto
+    margin-bottom: 1em
+    flex-grow: 1      
 
     li
       display: inline
