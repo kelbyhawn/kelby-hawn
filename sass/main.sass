@@ -12,6 +12,21 @@ $width-sm: 640px
   -ms-transition: $property
   transition: $property
 
+@keyframes hop
+  0%
+    transform: translateY(0px)
+  
+  30% 
+    transform: translateY(-6px)
+
+  60% 
+    transform: translateY(3px)
+  
+  100% 
+    transform: translateY(0px)
+  
+
+
 //------------------------------------------
 
 
@@ -29,8 +44,9 @@ h1, h2, h3, h4, h5, h6
   font-family: $font-display
 
 h1
-  font-weight: 700
-  font-size: 4.5em
+  font-weight: 600
+  font-size: 4.75em
+  animation: hop .5s ease-in-out .7s 1
 
 h2
   font-weight: 400
@@ -148,7 +164,7 @@ section.top
     padding: 7em 1em
 
     h1
-      font-size: 4em
+      font-size: 4.2em
 
     h3
       width: 90%
