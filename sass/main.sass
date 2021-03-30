@@ -40,10 +40,18 @@ h3
   font-weight: 300
   font-size: 1.25em
   margin-bottom: 1em
+  transition: transform .2s ease-in-out
 
   span 
     color: $color-accent
     font-weight: 500
+    display: inline-block
+    transition: transform .2s ease-in-out
+
+  &:hover
+
+    span
+      transform: translateY(3px) 
 
 p
   font-size: .8125em
