@@ -27,13 +27,17 @@ h3 {
   font-weight: 300;
   font-size: 1.25em;
   margin-bottom: 1em;
-  transition: transform 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 h3 span {
   color: red;
   font-weight: 500;
   display: inline-block;
-  transition: transform 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 h3:hover span {
   transform: translateY(3px);
@@ -49,9 +53,9 @@ p {
 a {
   color: rgba(0, 0, 0, 0.85);
   text-decoration: underline;
-  -webkit-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 a:hover {
   color: red;

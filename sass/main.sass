@@ -3,7 +3,7 @@ $color-light: #EEECEC
 $color-accent: red
 $font-body: 'Open Sans', sans-serif
 $font-display: 'Bitter', serif
-$hover: color .2s ease-in-out
+$hover: all .2s ease-in-out
 $width-md: 992px
 $width-sm: 640px
 
@@ -40,13 +40,13 @@ h3
   font-weight: 300
   font-size: 1.25em
   margin-bottom: 1em
-  transition: transform .2s ease-in-out
+  +transition($hover)
 
   span 
     color: $color-accent
     font-weight: 500
     display: inline-block
-    transition: transform .2s ease-in-out
+    +transition($hover)
 
   &:hover
 
