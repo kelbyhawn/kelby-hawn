@@ -222,12 +222,10 @@ section.about img {
   border-radius: 50%;
   margin: 2em auto 2.5em;
 }
-section.about p:nth-of-type(1), section.about p:nth-of-type(2) {
+section.about p {
   font-size: 1.125em;
   font-family: "Bitter", serif;
-}
-section.about p strong {
-  font-family: "Bitter", serif;
+  margin-bottom: 0;
 }
 
 section.side-projects div {
