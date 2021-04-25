@@ -236,7 +236,7 @@ section.side-projects h2 {
 }
 
 footer {
-  max-width: 320px;
+  max-width: 394px;
   padding: 12em 1em 0;
   margin: 0 auto 2em;
   font-family: "Bitter", serif;
@@ -259,8 +259,11 @@ footer ul li {
   display: inline;
   margin-left: 1.75em;
   font-size: 0.8125em;
-  /*@media screen and (max-width: $width-sm)
-  * margin: 0 1em*/ // Apply this when LinkedIn is active */
+}
+@media screen and (max-width: 640px) {
+  footer ul li {
+    margin: 0 1em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
