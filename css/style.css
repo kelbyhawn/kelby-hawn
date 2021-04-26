@@ -212,18 +212,18 @@ section.about, section.side-projects {
 
 @media screen and (max-width: 640px) {
   section.about .wrapper {
-    max-width: 325px;
+    max-width: 340px;
     margin: 0 auto;
   }
 }
 section.about img {
-  width: 175px;
-  height: 175px;
+  width: 165px;
+  height: 165px;
   border-radius: 50%;
-  margin: 2em auto 2.5em;
+  margin: 1.5em auto 2em;
 }
 section.about p {
-  font-size: 1.125em;
+  font-size: 1em;
   font-family: "Bitter", serif;
   margin-bottom: 0;
 }
