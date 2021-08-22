@@ -207,12 +207,12 @@ section.top .wrapper {
 }
 
 section.about, section.side-projects {
-  max-width: 665px;
+  max-width: 628px;
 }
 
 @media screen and (max-width: 640px) {
   section.about .wrapper {
-    max-width: 335px;
+    max-width: 315px;
     margin: 0 auto;
   }
 }
