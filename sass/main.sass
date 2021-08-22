@@ -50,11 +50,12 @@ h1
 
 h2
   font-weight: 400
-  font-size: 1.5em
+  font-size: 2.25em
+  margin-bottom: 3em
 
 h3
   font-weight: 300
-  font-size: 1.25em
+  font-size: 1.45em
   margin-bottom: 1em
   +transition($hover)
 
@@ -147,7 +148,7 @@ main
 
 section
   margin: 0 auto
-  padding: 10em 1em 0
+  padding: 12em 1em 0
 
   @media screen and (max-width: $width-sm)
     padding-top: 8em
@@ -162,8 +163,6 @@ section.top
 
   h2
     max-width: 480px
-    font-size: 2.25em
-    margin-bottom: 3em
 
     @media screen and (max-width: $width-sm)
       font-size: 1.8em
@@ -212,7 +211,7 @@ section.about
 
   @media screen and (max-width: $width-sm)
     .wrapper
-      max-width: 310px
+      max-width: 335px
       margin: 0 auto
 
   img
@@ -233,8 +232,12 @@ section.side-projects
   div
     margin-top: 3em
 
-  h2
-    margin-bottom: 0.25em
+  a 
+    font-family: $font-display
+    font-size: 1.4em
+    font-weight: 500
+    margin-bottom: 0.2em
+    display: block
 
 
 footer

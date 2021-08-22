@@ -35,12 +35,13 @@ h1 {
 
 h2 {
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 2.25em;
+  margin-bottom: 3em;
 }
 
 h3 {
   font-weight: 300;
-  font-size: 1.25em;
+  font-size: 1.45em;
   margin-bottom: 1em;
   -webkit-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -146,7 +147,7 @@ main {
 
 section {
   margin: 0 auto;
-  padding: 10em 1em 0;
+  padding: 12em 1em 0;
 }
 @media screen and (max-width: 640px) {
   section {
@@ -162,8 +163,6 @@ section.top {
 }
 section.top h2 {
   max-width: 480px;
-  font-size: 2.25em;
-  margin-bottom: 3em;
 }
 @media screen and (max-width: 640px) {
   section.top h2 {
@@ -213,7 +212,7 @@ section.about, section.side-projects {
 
 @media screen and (max-width: 640px) {
   section.about .wrapper {
-    max-width: 310px;
+    max-width: 335px;
     margin: 0 auto;
   }
 }
@@ -232,8 +231,12 @@ section.about p {
 section.side-projects div {
   margin-top: 3em;
 }
-section.side-projects h2 {
-  margin-bottom: 0.25em;
+section.side-projects a {
+  font-family: "Bitter", serif;
+  font-size: 1.4em;
+  font-weight: 500;
+  margin-bottom: 0.2em;
+  display: block;
 }
 
 footer {
