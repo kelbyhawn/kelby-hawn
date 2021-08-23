@@ -1,30 +1,6 @@
-$color: black
-$color-light: #EEECEC 
-$color-accent: red
-$font-body: 'Open Sans', sans-serif
-$font-display: 'Bitter', serif
-$hover: all .2s ease-in-out
-$width-md: 992px
-$width-sm: 640px
-
-=transition($property)
-  -webkit-transition: $property
-  -ms-transition: $property
-  transition: $property
-
-@keyframes hop
-  0%
-    transform: translateY(0px)
-  
-  30% 
-    transform: translateY(-6px)
-
-  60% 
-    transform: translateY(3px)
-  
-  100% 
-    transform: translateY(0px)
-  
+@import 'variables'
+@import 'mixins'
+@import 'animation'
 
 
 //------------------------------------------
@@ -46,7 +22,7 @@ h1, h2, h3, h4, h5, h6
 h1
   font-weight: 600
   font-size: 4.75em
-  animation: hop .5s ease-in-out .7s 1
+  animation: $animate
 
 h2
   font-weight: 400
@@ -57,13 +33,13 @@ h3
   font-weight: 300
   font-size: 1.45em
   margin-bottom: 1em
-  +transition($hover)
+  @include transition($hover)
 
   span 
     color: $color-accent
     font-weight: 500
     display: inline-block
-    +transition($hover)
+    @include transition($hover)
 
   &:hover
 
@@ -79,7 +55,7 @@ p
 a
   color: rgba($color, .85)
   text-decoration: underline
-  +transition($hover)
+  @include transition($hover)
 
   &:hover
     color: $color-accent
