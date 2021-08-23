@@ -80,9 +80,7 @@ strong
 header 
   background-color: rgba($color, .85)
   padding: 2em
-  display: -webkit-box
-  display: -ms-flexbox
-  display: flex
+  @include flex
   -webkit-box-pack: justify
   -ms-flex-pack: justify
   justify-content: space-between
@@ -221,9 +219,7 @@ footer
   padding: 12em 1em 0
   margin: 0 auto 2em
   font-family: $font-display
-  display: -webkit-box
-  display: -ms-flexbox
-  display: flex
+  @include flex
   -ms-flex-pack: distribute
   justify-content: space-around
   -webkit-box-align: baseline
