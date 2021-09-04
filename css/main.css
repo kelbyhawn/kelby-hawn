@@ -147,7 +147,7 @@ main {
 
 section {
   margin: 0 auto;
-  padding: 12em 1em 0;
+  padding: 10em 1em 0;
 }
 @media screen and (max-width: 640px) {
   section {
@@ -233,7 +233,7 @@ section.side-projects div {
 }
 section.side-projects a {
   font-family: "Bitter", serif;
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: 500;
   margin-bottom: 0.2em;
   display: block;
