@@ -85,21 +85,6 @@ strong {
   color: #EEECEC;
 }
 
-@media screen and (max-width: 640px) {
-  .desktop {
-    display: none;
-  }
-}
-
-.mobile {
-  display: none;
-}
-@media screen and (max-width: 640px) {
-  .mobile {
-    display: block;
-  }
-}
-
 header {
   background-color: rgba(0, 0, 0, 0.85);
   padding: 2em;
@@ -179,6 +164,7 @@ section.top h2 a {
 section.top h3 {
   font-size: 1.125em;
   letter-spacing: 0.01em;
+  line-height: 1.5;
 }
 section.top h3 a {
   font-weight: 500;
@@ -197,7 +183,7 @@ section.top h3 a {
   }
 }
 section.top .wrapper {
-  max-width: 490px;
+  max-width: 450px;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
@@ -207,12 +193,18 @@ section.top .wrapper {
 }
 
 section.about, section.side-projects {
-  max-width: 628px;
+  max-width: 625px;
 }
 
 @media screen and (max-width: 640px) {
   section.about .wrapper {
-    max-width: 315px;
+    max-width: 382px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  section.about .wrapper {
+    max-width: 305px;
     margin: 0 auto;
   }
 }
@@ -225,6 +217,8 @@ section.about img {
 section.about p {
   font-size: 1.125em;
   font-family: "Bitter", serif;
+}
+section.about p:nth-of-type(even) {
   margin-bottom: 0;
 }
 
