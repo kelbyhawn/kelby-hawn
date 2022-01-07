@@ -12,10 +12,6 @@
     transform: translateY(0px);
   }
 }
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: #fff;
   font-family: "Open Sans", sans-serif;
