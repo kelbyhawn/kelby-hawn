@@ -166,9 +166,6 @@ section.top h3 {
   letter-spacing: 0.01em;
   line-height: 1.5;
 }
-section.top h3 a {
-  font-weight: 500;
-}
 @media screen and (max-width: 640px) {
   section.top {
     padding: 7em 1em;
@@ -183,7 +180,7 @@ section.top h3 a {
   }
 }
 section.top .wrapper {
-  max-width: 450px;
+  max-width: 430px;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
