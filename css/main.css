@@ -148,6 +148,7 @@ section.top {
 }
 section.top h2 {
   max-width: 480px;
+  margin: 0 auto 3.5em;
 }
 @media screen and (max-width: 640px) {
   section.top h2 {
@@ -165,6 +166,7 @@ section.top h3 {
   font-size: 1.125em;
   letter-spacing: 0.01em;
   line-height: 1.5;
+  margin-bottom: 0;
 }
 @media screen and (max-width: 640px) {
   section.top {
@@ -175,12 +177,11 @@ section.top h3 {
   }
   section.top h3 {
     width: 80%;
-    margin: 0 auto 0.5em;
+    margin: 0 auto;
     line-height: 1.4;
   }
 }
 section.top .wrapper {
-  max-width: 430px;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
