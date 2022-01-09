@@ -221,6 +221,9 @@ section.side-projects a {
 section.side-projects p {
   margin-top: 0.25em;
 }
+section.side-projects p:last-child {
+  margin-bottom: 0;
+}
 
 footer {
   max-width: 376px;
