@@ -170,7 +170,7 @@ section.top h3 {
 }
 @media screen and (max-width: 640px) {
   section.top {
-    padding: 7em 1em;
+    padding: 8em 1em;
   }
   section.top h1 {
     font-size: 4.2em;
@@ -181,27 +181,19 @@ section.top h3 {
     line-height: 1.4;
   }
 }
-section.top .wrapper {
-  margin: 0 auto;
-}
-@media screen and (max-width: 640px) {
-  section.top .wrapper {
-    max-width: 340px;
-  }
-}
 
 section.about, section.side-projects {
   max-width: 625px;
 }
 
 @media screen and (max-width: 640px) {
-  section.about .wrapper {
-    max-width: 382px;
+  section.about {
+    max-width: 338px;
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 375px) {
-  section.about .wrapper {
+@media screen and (max-width: 374px) {
+  section.about {
     max-width: 305px;
     margin: 0 auto;
   }
@@ -215,9 +207,6 @@ section.about img {
 section.about p {
   font-size: 1.125em;
   font-family: "Bitter", serif;
-}
-section.about p:nth-of-type(even) {
-  margin-bottom: 0;
 }
 
 section.side-projects div {
