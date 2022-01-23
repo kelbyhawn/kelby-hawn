@@ -176,7 +176,7 @@ section.top h3 {
     font-size: 4.2em;
   }
   section.top h3 {
-    width: 80%;
+    width: 250px;
     margin: 0 auto;
     line-height: 1.4;
   }
@@ -188,7 +188,7 @@ section.about, section.side-projects {
 
 @media screen and (max-width: 640px) {
   section.about {
-    max-width: 338px;
+    max-width: 335px;
     margin: 0 auto;
   }
 }
