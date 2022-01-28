@@ -1,4 +1,5 @@
 // Dependencies
+import {Link} from "react-router-dom"
 import { HashLink } from "react-router-hash-link";
 import smoothscroll from 'smoothscroll-polyfill';
 
@@ -20,7 +21,7 @@ export default function Layout() {
   return (
     <>
       <header>
-        <HashLink smooth to="#top"><img src={logo} alt="Kelby Hawn logo" /></HashLink>
+        <Link to="/"><img src={logo} alt="Kelby Hawn logo" /></Link>
 
         <nav>     
           <ul>
