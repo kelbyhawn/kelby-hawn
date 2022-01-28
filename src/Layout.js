@@ -44,13 +44,13 @@ export default function Layout() {
         <p>©{year} <small>Kelby Hawn</small></p>
         <ul>
           <li>
-            <ATag href="https://www.linkedin.com/in/kelby-hawn/" text="LinkedIn" />
+            <ATag href="https://www.linkedin.com/in/kelby-hawn/" linkText="LinkedIn" />
           </li>
           <li>
-            <ATag href="https://github.com/kelbyhawn" text="GitHub" />
+            <ATag href="https://github.com/kelbyhawn" linkText="GitHub" />
           </li>
           <li>
-            <ATag href="https://codepen.io/kelbyhawn" text="CodePen" />
+            <ATag href="https://codepen.io/kelbyhawn" linkText="CodePen" />
           </li>
         </ul>
       </footer>
