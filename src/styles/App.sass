@@ -1,0 +1,232 @@
+@import 'variables'
+@import 'mixins'
+@import 'animation'
+
+
+//------------------------------------------
+
+
+body
+  background-color: #fff
+  font-family: $font-body
+  font-size: 16px
+  line-height: 1.2
+  color: rgba($color, .8)
+  text-align: center
+  -webkit-text-size-adjust: none
+  text-size-adjust: none
+
+h1, h2, h3, h4, h5, h6
+  font-family: $font-display
+
+h1
+  font-weight: 600
+  font-size: 4.75em
+  animation: $animate
+
+h2
+  font-weight: 400
+  font-size: 2.25em
+  margin-bottom: 3em
+
+h3
+  font-weight: 300
+  font-size: 1.45em
+  margin-bottom: 1em
+  @include transition($hover)
+
+  span 
+    color: $color-accent
+    font-weight: 500
+    display: inline-block
+    @include transition($hover)
+
+  &:hover
+
+    span
+      transform: translateY(3px) 
+
+p
+  font-size: .8125em
+  font-weight: 300
+  line-height: 1.5
+  margin-bottom: 1em
+
+a
+  color: rgba($color, .85)
+  text-decoration: underline
+  @include transition($hover)
+
+  &:hover
+    color: $color-accent
+
+strong
+  font-weight: 600
+
+.light
+  color: $color-light
+
+
+header 
+  background-color: rgba($color, .85)
+  padding: 2em
+  @include flex
+  -webkit-box-pack: justify
+  -ms-flex-pack: justify
+  justify-content: space-between
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+
+  @media screen and (max-width: $width-sm)
+    padding: 1em
+
+    img 
+      width: 85%
+      float: left
+
+  nav 
+    font-family: $font-display
+    font-weight: 600
+    font-size: 13px
+
+    ul
+
+      @media screen and (max-width: $width-sm)
+        width: 172px
+        float: right
+
+      li
+        display: inline
+        margin-left: 2em
+
+        a
+          text-decoration: none
+
+
+
+main
+  position: relative
+
+
+
+section
+  margin: 0 auto
+  padding: 10em 1em 0
+
+  @media screen and (max-width: $width-sm)
+    padding-top: 8em
+
+
+
+section.top
+  background-color: rgba($color, .85)
+  color: $color-light
+  padding: 8em 1em 11em
+  margin: 0
+
+  h2
+    max-width: 480px
+    margin: 0 auto 3.5em
+
+    @media screen and (max-width: $width-sm)
+      font-size: 1.8em
+      line-height: 1.3
+      width: 90%
+      margin: 0 auto 3em
+
+    a
+      text-decoration: none
+      border-bottom: 1px solid
+
+  h3
+    font-size: 1.125em
+    letter-spacing: .01em
+    line-height: 1.5
+    margin-bottom: 0
+
+  @media screen and (max-width: $width-sm)
+    padding: 8em 1em
+
+    h1
+      font-size: 4.2em
+
+    h3
+      width: 250px
+      margin: 0 auto
+      line-height: 1.4
+
+
+
+section.about, section.side-projects
+  max-width: 625px
+
+
+
+section.about
+
+  @media screen and (max-width: $width-sm)
+    max-width: 335px
+    margin: 0 auto
+
+  @media screen and (max-width: $width-xs)
+    max-width: 305px
+    margin: 0 auto
+
+  img
+    width: 165px
+    height: 165px
+    border-radius: 50%
+    margin: 1.5em auto 2em
+
+  p
+    font-size: 1.125em
+    font-family: $font-display
+
+
+
+section.side-projects
+
+  div
+    margin-top: 3.25em
+
+  a 
+    font-family: $font-display
+    font-size: 1.3em
+    font-weight: 500
+    margin-bottom: 0.2em
+
+  p
+    margin-top: .25em
+
+    &:last-child
+      margin-bottom: 0
+
+
+footer
+  max-width: 376px
+  padding: 11em 1em 0
+  margin: 0 auto 2em
+  font-family: $font-display
+  @include flex
+  -ms-flex-pack: distribute
+  justify-content: space-around
+  -webkit-box-align: baseline
+  -ms-flex-align: baseline
+  align-items: baseline
+  -ms-flex-wrap: wrap-reverse
+  flex-wrap: wrap-reverse
+
+  ul
+    margin-bottom: 1em
+    flex-grow: 1      
+
+    li
+      display: inline
+      margin-left: 1.75em
+      font-size: .8125em
+
+      @media screen and (max-width: $width-sm)
+        margin: 0 1em
+
+
