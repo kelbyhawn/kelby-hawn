@@ -2,14 +2,14 @@
 import { HashLink } from "react-router-hash-link";
 import smoothscroll from 'smoothscroll-polyfill';
 
-// Section Components
-import Top from "./components/Top";
-import About from "./components/About";
-import Projects from "./components/Projects";
+// Components
+import Top from "./sections/Top";
+import About from "./sections/About";
+import Projects from "./sections/Projects";
+import ATag from "./components/ATag";
 
 // Assets
 import logo from "./assets/kh-logo.svg";
-
 
 export default function Layout() {
   const year = new Date().getFullYear();
@@ -22,19 +22,16 @@ export default function Layout() {
       <header>
         <HashLink smooth to="#top"><img src={logo} alt="Kelby Hawn logo" /></HashLink>
 
-        <div className="wrapper">
-          <nav>     
-            <ul>
-              <li>
-                <HashLink smooth to="#about" className="light">About</HashLink>
-              </li>
-              <li>
-                <HashLink smooth to="#side-projects" className="light">Side Projects</HashLink>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        
+        <nav>     
+          <ul>
+            <li>
+              <HashLink smooth to="#about" className="light">About</HashLink>
+            </li>
+            <li>
+              <HashLink smooth to="#side-projects" className="light">Side Projects</HashLink>
+            </li>
+          </ul>
+        </nav>
       </header>
 
       <main>
@@ -47,13 +44,13 @@ export default function Layout() {
         <p>©{year} <small>Kelby Hawn</small></p>
         <ul>
           <li>
-            <a href="https://www.linkedin.com/in/kelby-hawn/" target="_blank" rel="noreferrer"><strong>LinkedIn</strong></a>
+            <ATag href="https://www.linkedin.com/in/kelby-hawn/" text="LinkedIn" />
           </li>
           <li>
-            <a href="https://github.com/kelbyhawn" target="_blank" rel="noreferrer"><strong>GitHub</strong></a>
+            <ATag href="https://github.com/kelbyhawn" text="GitHub" />
           </li>
           <li>
-            <a href="https://codepen.io/kelbyhawn" target="_blank" rel="noreferrer"><strong>CodePen</strong></a>
+            <ATag href="https://codepen.io/kelbyhawn" text="CodePen" />
           </li>
         </ul>
       </footer>
