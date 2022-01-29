@@ -19,4 +19,4 @@ Includes links to:
 - [React Router](https://www.npmjs.com/package/react-router) - Declarative routing for React
 - [React Router Hash Link](https://www.npmjs.com/package/react-router-hash-link) - Hash link scroll functionality for React Router 
 - [smoothscroll-polyfill](https://www.npmjs.com/package/smoothscroll-polyfill) - Scroll Behavior polyfill.
-- [Sass](https://sass-lang.com) - CSS with superpowers.
+- [Sass](https://www.npmjs.com/package/sass) - CSS with superpowers.
