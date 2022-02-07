@@ -4,9 +4,6 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 // Layout Component
 import Layout from "./Layout";
 
-// Assets
-import "./styles/App.sass";
-
 function App() {
   return (
     <Router>
