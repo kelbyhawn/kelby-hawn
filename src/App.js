@@ -1,6 +1,10 @@
 // Dependencies
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
+// Assets
+import "./styles/reset.css";
+import "./styles/App.sass";
+
 // Layout Component
 import Layout from "./Layout";
 

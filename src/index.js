@@ -2,10 +2,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// Assets
-import "./styles/reset.css";
-import "./styles/App.sass";
-
 // Components
 import App from "./App";
 
