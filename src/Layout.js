@@ -29,7 +29,10 @@ export default function Layout() {
               <HashLink smooth to="#about" className="light">About</HashLink>
             </li>
             <li>
-              <HashLink smooth to="#side-projects" className="light">Side Projects</HashLink>
+              <HashLink smooth to="#side-projects" className="light">Projects</HashLink>
+            </li>
+            <li>
+              <ATag href="https://github.com/kelbyhawn" className="light" linkText="GitHub" />
             </li>
           </ul>
         </nav>

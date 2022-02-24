@@ -4,7 +4,7 @@ import SideProject from "../components/SideProject"
 export default function Projects() {
   return (
     <section id="side-projects" className="side-projects">
-      <h3><strong>Side Projects</strong> <span>↓</span></h3>
+      <h3>Side Projects <span>↓</span></h3>
 
       <SideProject
         href="https://codepen.io/kelbyhawn"

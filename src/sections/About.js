@@ -7,7 +7,7 @@ import me from "../assets/kelby-hawn.png"
 export default function About() {
   return (
     <section id="about" className="about">
-        <h3><strong>About Me</strong> <span>↓</span></h3>
+        <h3>About Me <span>↓</span></h3>
         <img src={me} alt="Kelby Hawn" />
         <p>I'm a front-end + UI developer with a background in design. After <ATag href="https://www.crunchbase.com/person/kelby-hawn" linkText="co-founding two successful startups" /> as a product/web designer, I've switched fully into code mode and spent 2021 on sabbatical learning JavaScript, React, and other front-end technologies.</p>
 
