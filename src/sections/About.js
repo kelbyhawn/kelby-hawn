@@ -9,7 +9,7 @@ export default function About() {
     <section id="about" className="about">
         <h3>About Me <span>↓</span></h3>
         <img src={me} alt="Kelby Hawn" />
-        <p>I'm a front-end developer + designer with a <ATag href="https://www.crunchbase.com/person/kelby-hawn" linkText="background in startups" />. I love translating design into code and solving problems in a practical and mindful way while collaborating with others. I'm also a <ATag href="https://seattleinsight.org/" linkText="member and volunteer at the Seattle Insight Meditation Society" />.</p>
+        <p>I'm a front-end developer + designer with a <ATag href="https://www.crunchbase.com/person/kelby-hawn" linkText="background in startups" />. I love translating design into code and solving problems in a practical and mindful way while collaborating with others. I'm also a member and volunteer at the Seattle Insight Meditation Society.</p>
     </section>
   )
 }
