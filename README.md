@@ -13,6 +13,5 @@ Includes links to side projects (which you can find here on [GitHub](https://git
 - [Create React App](https://create-react-app.dev)
 - [React Router](https://www.npmjs.com/package/react-router)
 - [React Router Hash Link](https://www.npmjs.com/package/react-router-hash-link)
-- [smoothscroll-polyfill](https://www.npmjs.com/package/smoothscroll-polyfill) - Scroll Behavior polyfill.
 - [Sass](https://sass-lang.com) - CSS with superpowers.
 

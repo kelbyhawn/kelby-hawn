@@ -1,7 +1,6 @@
 // Dependencies
 import {Link} from "react-router-dom"
 import { HashLink } from "react-router-hash-link";
-import smoothscroll from 'smoothscroll-polyfill';
 
 // Components
 import Top from "./sections/Top";
@@ -15,15 +14,12 @@ import logo from "./assets/kh-logo.svg";
 export default function Layout() {
   const year = new Date().getFullYear();
 
-  // Allows for smooth scrolling in Safari
-  smoothscroll.polyfill();
-
   return (
     <>
       <header>
         <Link to="/"><img src={logo} alt="Kelby Hawn logo" /></Link>
 
-        <nav>     
+        <nav>
           <ul>
             <li>
               <HashLink smooth to="#about" className="light">About</HashLink>
@@ -44,7 +40,7 @@ export default function Layout() {
         <Projects />
       </main>
 
-      <footer>            
+      <footer>
         <p>©{year} <small>Kelby Hawn</small></p>
         <ul>
           <li>
