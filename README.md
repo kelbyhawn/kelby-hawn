@@ -13,9 +13,8 @@ Includes links to:
 
 ## Dependencies
 
-- [React](https://reactjs.org/) - A declarative, efficient, and flexible JavaScript library for building user interfaces. 
-- [Create React App](https://create-react-app.dev) - Set up a modern web app by running one command. 
-- [React Router](https://www.npmjs.com/package/react-router) - Declarative routing for React
-- [React Router Hash Link](https://www.npmjs.com/package/react-router-hash-link) - Hash link scroll functionality for React Router 
-- [smoothscroll-polyfill](https://www.npmjs.com/package/smoothscroll-polyfill) - Scroll Behavior polyfill.
-- [Sass](https://www.npmjs.com/package/sass) - CSS with superpowers.
+- [React](https://reactjs.org/)
+- [Create React App](https://create-react-app.dev)
+- [React Router](https://www.npmjs.com/package/react-router)
+- [React Router Hash Link](https://www.npmjs.com/package/react-router-hash-link)
+- [Sass](https://sass-lang.com) - CSS with superpowers.
