@@ -49,9 +49,6 @@ export default function Layout() {
           <li>
             <ATag href="https://github.com/kelbyhawn" linkText="GitHub" />
           </li>
-          <li>
-            <ATag href="https://codepen.io/kelbyhawn" linkText="CodePen" />
-          </li>
         </ul>
       </footer>
     </>
