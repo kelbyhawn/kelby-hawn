@@ -4,7 +4,6 @@ import { HashLink } from "react-router-hash-link";
 
 // Components
 import Top from "./sections/Top";
-import About from "./sections/About";
 import Projects from "./sections/Projects";
 import ATag from "./components/ATag";
 
@@ -22,9 +21,6 @@ export default function Layout() {
         <nav>
           <ul>
             <li>
-              <HashLink smooth to="#about" className="light">About</HashLink>
-            </li>
-            <li>
               <HashLink smooth to="#side-projects" className="light">Projects</HashLink>
             </li>
             <li>
@@ -36,7 +32,6 @@ export default function Layout() {
 
       <main>
         <Top />
-        <About />
         <Projects />
       </main>
 
