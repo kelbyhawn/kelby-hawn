@@ -9,7 +9,6 @@
 Includes links to:
 - Side projects (which you can find here on [GitHub](https://github.com/kelbyhawn))
 - [CodePen](https://codepen.io/kelbyhawn)
-- [LinkedIn](https://www.linkedin.com/in/kelby-hawn/)
 
 ## Dependencies
 
