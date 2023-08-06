@@ -39,9 +39,6 @@ export default function Layout() {
         <p>©{year} <small>Kelby Hawn</small></p>
         <ul>
           <li>
-            <ATag href="https://www.linkedin.com/in/kelby-hawn/" linkText="LinkedIn" />
-          </li>
-          <li>
             <ATag href="https://github.com/kelbyhawn" linkText="GitHub" />
           </li>
         </ul>
