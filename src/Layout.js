@@ -36,12 +36,7 @@ export default function Layout() {
       </main>
 
       <footer>
-        <p>©{year} <small>Kelby Hawn</small></p>
-        <ul>
-          <li>
-            <ATag href="https://github.com/kelbyhawn" linkText="GitHub" />
-          </li>
-        </ul>
+        <p>©{year} <small>Kelby Hawn</small> <span>•</span> <ATag href="https://github.com/kelbyhawn" linkText="GitHub" /></p>
       </footer>
     </>
   );
