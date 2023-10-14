@@ -7,7 +7,7 @@ export default function SideProject(props) {
   return (
     <div>
       <ATag href={href} linkText={linkText} className={className} />
-      <p><small>{description}</small></p>
+      <p>{description}</p>
     </div>
   )
 }
