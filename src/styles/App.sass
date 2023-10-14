@@ -29,6 +29,7 @@ h2
   @include transition($hover)
 
   span
+    cursor: default
     color: $color-accent
     font-weight: 500
     display: inline-block
@@ -127,7 +128,7 @@ section.top
       animation: $animate
 
   @media screen and (max-width: $width-sm)
-    padding: 8rem 1rem
+    padding: 8rem 1rem 9rem
 
     p.hi
       font-size: 4.2rem
@@ -135,30 +136,10 @@ section.top
 section.about, section.side-projects
   max-width: 625px
 
-section.about
-
-  @media screen and (max-width: $width-sm)
-    max-width: 365px
-    margin: 0 auto
-
-  @media screen and (max-width: $width-xs)
-    max-width: 305px
-    margin: 0 auto
-
-  img
-    width: 165px
-    height: 165px
-    border-radius: 50%
-    margin: 1.5rem auto 2rem
-
-  p
-    font-size: 1.125rem
-    font-family: $font-display
-
 section.side-projects
 
   div
-    margin-top: 3.25rem
+    margin-top: 3.5rem
 
   a
     display: block
@@ -169,13 +150,10 @@ section.side-projects
 
   p
     margin-top: .25rem
-
-    &:last-child
-      margin-bottom: 0
+    margin-bottom: 0
 
 footer
-  max-width: 376px
-  padding: 10rem 2rem 0
+  padding-top: 9rem
   margin: 0 auto 2rem
   font-family: $font-display
   @include flex
