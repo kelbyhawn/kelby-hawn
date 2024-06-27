@@ -6,7 +6,7 @@ export default function Top() {
     <section className="top">
       <p className="hi">Hi!</p>
 
-      <h1>I'm a front-end developer with an eye for design.</h1>
+      <h1>I'm a software engineer.</h1>
 
       <p>✨ Currently works at <ATag href="https://code.org" linkText="Code.org" className="light" /></p>
     </section>
