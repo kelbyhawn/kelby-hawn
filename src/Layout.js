@@ -29,13 +29,6 @@ export default function Layout() {
             </li>
             <li>
               <ATag
-                href="https://linkedin.com/in/kelbyhawn"
-                className="light"
-                linkText="LinkedIn"
-              />
-            </li>
-            <li>
-              <ATag
                 href="https://github.com/kelbyhawn"
                 className="light"
                 linkText="GitHub"
