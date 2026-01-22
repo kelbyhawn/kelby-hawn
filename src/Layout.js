@@ -1,5 +1,5 @@
 // Dependencies
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 // Components
@@ -16,15 +16,30 @@ export default function Layout() {
   return (
     <>
       <header>
-        <Link to="/"><img src={logo} alt="Kelby Hawn logo" /></Link>
+        <Link to="/">
+          <img src={logo} alt="Kelby Hawn logo" />
+        </Link>
 
         <nav>
           <ul>
             <li>
-              <HashLink smooth to="#side-projects" className="light">Projects</HashLink>
+              <HashLink smooth to="#side-projects" className="light">
+                Projects
+              </HashLink>
             </li>
             <li>
-              <ATag href="https://github.com/kelbyhawn" className="light" linkText="GitHub" />
+              <ATag
+                href="https://linkedin.com/in/kelbyhawn"
+                className="light"
+                linkText="LinkedIn"
+              />
+            </li>
+            <li>
+              <ATag
+                href="https://github.com/kelbyhawn"
+                className="light"
+                linkText="GitHub"
+              />
             </li>
           </ul>
         </nav>
@@ -36,7 +51,15 @@ export default function Layout() {
       </main>
 
       <footer>
-        <p>©{year} <small>Kelby Hawn</small> <span>•</span> <ATag href="https://github.com/kelbyhawn" linkText="GitHub" /></p>
+        <p>
+          ©{year} <small>Kelby Hawn</small> <span>•</span>{" "}
+          <ATag
+            href="https://www.linkedin.com/in/kelby-hawn/"
+            linkText="LinkedIn"
+          />{" "}
+          <span>•</span>{" "}
+          <ATag href="https://github.com/kelbyhawn" linkText="GitHub" />
+        </p>
       </footer>
     </>
   );
