@@ -16,6 +16,12 @@ export default function Top() {
           className="light"
         />
       </p>
+      <p className="past-work">
+        Previously at{" "}
+        <ATag href="https://code.org" linkText="Code.org" className="light" /> •
+        Co-founder at{" "}
+        <ATag href="https://dolly.com" linkText="Dolly" className="light" />
+      </p>
     </section>
   );
 }
