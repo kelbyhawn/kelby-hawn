@@ -1,5 +1,5 @@
 // Components
-import ATag from "./ATag";
+import Hyperlink from "./Hyperlink";
 
 export default function SideProject({
   description,
@@ -9,7 +9,7 @@ export default function SideProject({
 }) {
   return (
     <div>
-      <ATag href={href} linkText={linkText} className={className} />
+      <Hyperlink href={href} linkText={linkText} className={className} />
       <p>{description}</p>
     </div>
   );

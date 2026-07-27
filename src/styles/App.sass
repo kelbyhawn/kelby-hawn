@@ -1,22 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap')
-
-@import 'variables'
-@import 'mixins'
-@import 'animation'
+@use 'variables'
+@use 'mixins'
+@use 'animation'
 
 //------------------------------------------
 
 body
   background-color: #fff
-  font-family: $font-body
+  font-family: variables.$font-body
   line-height: 1.2
-  color: rgba($color, .8)
+  color: rgba(variables.$color, .8)
   text-align: center
   -webkit-text-size-adjust: none
   text-size-adjust: none
 
 h1, h2, h3, h4, h5, h6
-  font-family: $font-display
+  font-family: variables.$font-display
 
 h1
   font-weight: 400
@@ -26,15 +24,15 @@ h2
   font-weight: 600
   font-size: 1.875rem
   margin-bottom: 1rem
-  @include transition($hover)
+  @include mixins.transition(variables.$hover)
 
   span
     cursor: default
-    color: $color-accent
+    color: variables.$color-accent
     font-weight: 500
     display: inline-block
     margin: 0 -6px 0 2px
-    @include transition($hover)
+    @include mixins.transition(variables.$hover)
 
   &:hover
     span
@@ -47,27 +45,27 @@ p
   margin-bottom: 1rem
 
 a
-  color: rgba($color, .85)
+  color: rgba(variables.$color, .85)
   text-decoration: underline
-  @include transition($hover)
+  @include mixins.transition(variables.$hover)
 
   &:hover
-    color: $color-accent
+    color: variables.$color-accent
 
 strong
   font-weight: 600
 
 .light
-  color: $color-light
+  color: variables.$color-light
 
 header
-  background-color: rgba($color, .85)
+  background-color: rgba(variables.$color, .85)
   padding: 2rem
-  @include flex
+  display: flex
   justify-content: space-between
   align-items: center
 
-  @media screen and (max-width: $width-sm)
+  @media screen and (max-width: variables.$width-sm)
     padding: 1rem
 
     img
@@ -78,7 +76,7 @@ header
     cursor: pointer
 
   nav
-    font-family: $font-display
+    font-family: variables.$font-display
     font-weight: 500
 
     ul
@@ -98,12 +96,12 @@ section
   margin: 0 auto
   padding: 10rem 2rem 0
 
-  @media screen and (max-width: $width-sm)
+  @media screen and (max-width: variables.$width-sm)
     padding-top: 8rem
 
 section.top
-  background-color: rgba($color, .85)
-  color: $color-light
+  background-color: rgba(variables.$color, .85)
+  color: variables.$color-light
   padding: 6rem 2rem 10rem
   margin: 0
 
@@ -111,12 +109,12 @@ section.top
     max-width: 430px
     margin: 0 auto 6rem
 
-    @media screen and (max-width: $width-sm)
+    @media screen and (max-width: variables.$width-sm)
       font-size: 2rem
       line-height: 1.3
 
   p
-    font-family: $font-display
+    font-family: variables.$font-display
     font-size: 1.25rem
     letter-spacing: .01rem
     margin-bottom: 0
@@ -124,13 +122,13 @@ section.top
     &.hi
       font-size: 5rem
       font-weight: 600
-      animation: $animate
+      animation: variables.$animate
 
     &.past-work
       font-size: 1rem
       margin-top: 0.5rem
 
-  @media screen and (max-width: $width-sm)
+  @media screen and (max-width: variables.$width-sm)
     padding: 8rem 1rem 9rem
 
     p.hi
@@ -145,26 +143,25 @@ section.side-projects
     margin-top: 3.5rem
 
   a
-    font-family: $font-display
+    font-family: variables.$font-display
     font-size: 1.3rem
     font-weight: 500
     margin-bottom: 0.5rem
 
   p
-    margin-top: .5rem
-    margin-bottom: 0
+    margin-block: .5rem 0
 
 footer
   padding-top: 9rem
   margin: 0 auto 2rem
-  font-family: $font-display
-  @include flex
+  font-family: variables.$font-display
+  display: flex
   align-items: baseline
   justify-content: center
   gap: 1rem
 
   span
-    color: $color-accent
+    color: variables.$color-accent
 
   p, a
     font-size: 0.875rem
