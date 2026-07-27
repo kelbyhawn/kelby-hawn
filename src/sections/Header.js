@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 // Components
-import ATag from "../components/ATag";
+import Hyperlink from "../components/Hyperlink";
 import Image from "next/image";
 
 // Assets
@@ -29,7 +29,7 @@ export default function Header() {
             </HashLink>
           </li>
           <li>
-            <ATag
+            <Hyperlink
               href="https://github.com/kelbyhawn"
               className="light"
               linkText="GitHub"
