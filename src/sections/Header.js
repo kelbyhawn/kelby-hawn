@@ -1,8 +1,10 @@
+// Dependencies
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
 // Components
 import ATag from "../components/ATag";
 import Image from "next/image";
-import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
 
 // Assets
 import logo from "../assets/kh-logo.svg";
