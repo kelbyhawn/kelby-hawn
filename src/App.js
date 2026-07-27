@@ -11,13 +11,13 @@ import "./styles/reset.css";
 import "./styles/App.sass";
 
 // Layout Component
-import Layout from "./Layout";
+import Container from "./Container";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Layout />} />
+        <Route path="/" element={<Container />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
