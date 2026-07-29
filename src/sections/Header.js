@@ -1,10 +1,6 @@
-// Dependencies
-import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
-
 // Components
-import Hyperlink from "../components/Hyperlink";
 import Image from "next/image";
+import Link from "next/link";
 
 // Assets
 import logo from "../assets/kh-logo.svg";
@@ -12,7 +8,7 @@ import logo from "../assets/kh-logo.svg";
 export default function Header() {
   return (
     <header>
-      <Link to="/">
+      <Link href="/">
         <Image
           src={logo}
           alt="Kelby Hawn logo"
@@ -24,16 +20,14 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <HashLink smooth to="#side-projects" className="light">
+            <Link href="#side-projects" className="light">
               Projects
-            </HashLink>
+            </Link>
           </li>
           <li>
-            <Hyperlink
-              href="https://github.com/kelbyhawn"
-              className="light"
-              linkText="GitHub"
-            />
+            <Link href="https://github.com/kelbyhawn" className="light">
+              GitHub
+            </Link>
           </li>
         </ul>
       </nav>

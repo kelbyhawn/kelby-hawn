@@ -1,5 +1,5 @@
 // Components
-import Hyperlink from "../components/Hyperlink";
+import Link from "next/link";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -8,12 +8,8 @@ export default function Footer() {
     <footer>
       <p>
         ©{year} <small>Kelby Hawn</small> <span>•</span>{" "}
-        <Hyperlink
-          href="https://www.linkedin.com/in/kelby-hawn/"
-          linkText="LinkedIn"
-        />{" "}
-        <span>•</span>{" "}
-        <Hyperlink href="https://github.com/kelbyhawn" linkText="GitHub" />
+        <Link href="https://www.linkedin.com/in/kelby-hawn/">LinkedIn</Link>{" "}
+        <span>•</span> <Link href="https://github.com/kelbyhawn">GitHub</Link>
       </p>
     </footer>
   );

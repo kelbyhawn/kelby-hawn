@@ -1,5 +1,5 @@
 // Components
-import Hyperlink from "./Hyperlink";
+import Link from "next/link";
 
 export default function SideProject({
   description,
@@ -9,7 +9,9 @@ export default function SideProject({
 }) {
   return (
     <div>
-      <Hyperlink href={href} linkText={linkText} className={className} />
+      <Link href={href} className={className}>
+        {linkText}
+      </Link>
       <p>{description}</p>
     </div>
   );

@@ -1,5 +1,5 @@
 // Components
-import Hyperlink from "../components/Hyperlink";
+import Link from "next/link";
 
 export default function Top() {
   return (
@@ -10,25 +10,19 @@ export default function Top() {
 
       <p>
         ✨{" "}
-        <Hyperlink
-          href="https://www.linkedin.com/in/kelby-hawn/"
-          linkText="Open to work"
-          className="light"
-        />
+        <Link href="https://www.linkedin.com/in/kelby-hawn/" className="light">
+          Open to work
+        </Link>
       </p>
       <p className="past-work">
         Previously at{" "}
-        <Hyperlink
-          href="https://code.org"
-          linkText="Code.org"
-          className="light"
-        />{" "}
+        <Link href="https://code.org" className="light">
+          Code.org
+        </Link>{" "}
         • Co-founder at{" "}
-        <Hyperlink
-          href="https://dolly.com"
-          linkText="Dolly"
-          className="light"
-        />
+        <Link href="https://dolly.com" className="light">
+          Dolly
+        </Link>
       </p>
     </section>
   );
