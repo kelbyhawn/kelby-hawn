@@ -9,7 +9,7 @@ export default function SideProject({
 }) {
   return (
     <div>
-      <Link href={href} className={className}>
+      <Link href={href} className={className} target="_blank">
         {linkText}
       </Link>
       <p>{description}</p>

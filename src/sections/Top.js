@@ -10,17 +10,21 @@ export default function Top() {
 
       <p>
         ✨{" "}
-        <Link href="https://www.linkedin.com/in/kelby-hawn/" className="light">
+        <Link
+          href="https://www.linkedin.com/in/kelby-hawn/"
+          className="light"
+          target="_blank"
+        >
           Open to work
         </Link>
       </p>
       <p className="past-work">
         Previously at{" "}
-        <Link href="https://code.org" className="light">
+        <Link href="https://code.org" className="light" target="_blank">
           Code.org
         </Link>{" "}
         • Co-founder at{" "}
-        <Link href="https://dolly.com" className="light">
+        <Link href="https://dolly.com" className="light" target="_blank">
           Dolly
         </Link>
       </p>
