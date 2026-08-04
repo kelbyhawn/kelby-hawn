@@ -26,9 +26,9 @@ export default function Top() {
         <span style={{ fontStyle: "italic" }}>(formerly Code.org)</span> &
         Co-founder at{" "}
         <Link href="https://dolly.com" className="light" target="_blank">
-          TaskRabbit Delivery
+          Dolly
         </Link>{" "}
-        <span style={{ fontStyle: "italic" }}>(formerly Dolly)</span>
+        <span style={{ fontStyle: "italic" }}>(now TaskRabbit Delivery)</span>
       </p>
     </section>
   );
