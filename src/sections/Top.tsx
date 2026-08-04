@@ -21,12 +21,14 @@ export default function Top() {
       <p className="past-work">
         Previously at{" "}
         <Link href="https://code.org" className="light" target="_blank">
-          Code.org
+          CodeAI
         </Link>{" "}
-        • Co-founder at{" "}
+        <span style={{ fontStyle: "italic" }}>(formerly Code.org)</span> &
+        Co-founder at{" "}
         <Link href="https://dolly.com" className="light" target="_blank">
-          Dolly
-        </Link>
+          TaskRabbit Delivery
+        </Link>{" "}
+        <span style={{ fontStyle: "italic" }}>(formerly Dolly)</span>
       </p>
     </section>
   );
