@@ -15,15 +15,21 @@ export default function Projects() {
       />
 
       <SideProject
+        href="https://easyascii.com"
+        linkText="easyASCII"
+        description="A simple, easy-to-use list of ASCII codes."
+      />
+
+      <SideProject
         href="https://supersimpleloremipsum.com"
         linkText="Super Simple Lorem Ipsum"
         description="A no-frills Lorem Ipsum resource."
       />
 
       <SideProject
-        href="https://easyascii.com"
-        linkText="easyASCII"
-        description="A simple, easy-to-use list of ASCII codes."
+        href="https://warm-up-calculator.netlify.app"
+        linkText="Warm-Up Calculator"
+        description="Calculate basic weightlifting warm-up sets."
       />
 
       <SideProject
