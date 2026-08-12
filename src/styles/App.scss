@@ -123,7 +123,7 @@ main {
 
 section {
   margin: 0 auto;
-  padding: 10rem 2rem 0;
+  padding: 8rem 2rem 0;
 
   @media screen and (max-width: variables.$width-sm) {
     padding-top: 8rem;
@@ -174,7 +174,6 @@ section.top {
   }
 }
 
-section.about,
 section.side-projects {
   max-width: 625px;
 }
@@ -197,7 +196,7 @@ section.side-projects {
 }
 
 footer {
-  padding-top: 9rem;
+  padding-top: 6rem;
   margin: 0 auto 2rem;
   font-family: variables.$font-display;
   display: flex;
