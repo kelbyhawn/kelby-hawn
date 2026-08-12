@@ -2,10 +2,6 @@
 @use "mixins";
 @use "animation";
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: #fff;
   font-family: variables.$font-body;

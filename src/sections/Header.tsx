@@ -6,6 +6,15 @@ import Link from "next/link";
 import logo from "../assets/kh-logo.svg";
 
 export default function Header() {
+  const handleProjectsClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const projects = document.getElementById("side-projects");
+    if (projects) {
+      projects.scrollIntoView({ behavior: "smooth", block: "start" });
+      window.history.replaceState(null, "", "#side-projects");
+    }
+  };
+
   return (
     <header>
       <Link href="/">
@@ -20,7 +29,11 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <Link href="#side-projects" className="light">
+            <Link
+              href="#side-projects"
+              className="light"
+              onClick={handleProjectsClick}
+            >
               Projects
             </Link>
           </li>
