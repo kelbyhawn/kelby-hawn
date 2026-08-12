@@ -2,7 +2,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import { Bitter } from "next/font/google";
 import { Open_Sans } from "next/font/google";
 import "../src/styles/reset.css";
-import "../src/styles/App.sass";
+import "../src/styles/App.scss";
 
 const bitter = Bitter({
   weight: ["300", "400", "500", "600"],
