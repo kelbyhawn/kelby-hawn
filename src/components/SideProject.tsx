@@ -16,7 +16,7 @@ export default function SideProject({
 }: SideProjectProps) {
   return (
     <div>
-      <Link href={href} className={className} target="_blank">
+      <Link href={href} className={className}>
         {linkText}
       </Link>
       <p>{description}</p>

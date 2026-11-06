@@ -38,11 +38,7 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link
-              href="https://github.com/kelbyhawn"
-              className="light"
-              target="_blank"
-            >
+            <Link href="https://github.com/kelbyhawn" className="light">
               GitHub
             </Link>
           </li>
